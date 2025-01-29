@@ -1,6 +1,7 @@
-package lab2;
+package src.lab2;
 
-import lab2.utils.sort.QuickSort;
+import src.lab2.utils.sort.QuickSort;
+
 /**
  Generate a vector of size 20 with random elements from [-1000,1000].
  -display the vector.

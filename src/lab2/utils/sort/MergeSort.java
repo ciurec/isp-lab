@@ -1,4 +1,4 @@
-package lab2.utils.sort;
+package src.lab2.utils.sort;
 
 public class MergeSort {
 
