@@ -37,8 +37,6 @@ class Engine {
     void startEngine() {
     }
 
-
-
     void stopEngine() {
     }
 
@@ -82,6 +80,5 @@ class DieselEngine extends Engine {
 class ElectricEngine extends Engine {
 
     private int batteryCapacity;
-
 
 }
