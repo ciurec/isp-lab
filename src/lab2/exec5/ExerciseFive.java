@@ -1,4 +1,4 @@
-package src.lab2;
+package src.lab2.exec5;
 
 import src.lab2.utils.sort.QuickSort;
 

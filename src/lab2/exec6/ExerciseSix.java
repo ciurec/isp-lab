@@ -1,4 +1,4 @@
-package src.lab2;
+package src.lab2.exec6;
 
 import java.util.List;
 import java.util.Vector;
