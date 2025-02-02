@@ -1,10 +1,8 @@
-package src.lab3.exec5;
+package src.lab3.exec56;
 
 import org.junit.Test;
 
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class VendingMachineTest {
 

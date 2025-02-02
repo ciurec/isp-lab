@@ -1,4 +1,4 @@
-package src.lab3.exec5;
+package src.lab3.exec56;
 
 public class Product {
 

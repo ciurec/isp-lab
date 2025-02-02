@@ -1,4 +1,4 @@
-package src.lab4;
+package src.lab4.exec0;
 
 public class Car {
 

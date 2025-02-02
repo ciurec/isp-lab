@@ -19,7 +19,6 @@ public class Vehicle {
     private int speed;
     private FuelType fuelType;
     private static int NUMBER_OF_VEHICLES;
-
     public static void dispayNumberOfVehicles() {
         System.out.println("Number of vehicles: " + NUMBER_OF_VEHICLES);
     }
