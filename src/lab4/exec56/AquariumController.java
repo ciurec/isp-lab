@@ -48,5 +48,19 @@ public class AquariumController {
                 '}';
     }
 
+    public void setPresentTemperature(int presentTemperature) {
+        this.presentTemperature = presentTemperature;
+    }
 
+    public void setLvlSensor(LevelSensor lvlSensor) {
+        this.lvlSensor = lvlSensor;
+    }
+
+    public void setTmpSensor(TemperatureSensor tmpSensor) {
+        this.tmpSensor = tmpSensor;
+    }
+
+    public void setPhSensor(PhSensor phSensor) {
+        this.phSensor = phSensor;
+    }
 }
