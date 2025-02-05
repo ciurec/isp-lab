@@ -1,8 +1,9 @@
 import src.lab3.exec1.Tree;
+import src.lab5.exec2.Laptop;
 
 public class Runner {
     public static void main(String[] args) {
-     //  Lab 2
+        //  Lab 2
 //        ExerciseOne exerciseOne = new ExerciseOne();
 //        exerciseOne.run();
 //
@@ -26,5 +27,9 @@ public class Runner {
         Tree tree = new Tree();
         tree.grow(10);
 
+
+        // Lab 5
+        Laptop laptop = new Laptop();
+        laptop.charge(10);
     }
 }
