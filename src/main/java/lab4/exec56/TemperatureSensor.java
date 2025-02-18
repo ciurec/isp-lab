@@ -9,6 +9,7 @@ public class TemperatureSensor extends Sensor {
     }
 
     public void setValue(int value) {
+
         this.value = value;
     }
 
