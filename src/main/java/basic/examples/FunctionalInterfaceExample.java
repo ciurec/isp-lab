@@ -16,26 +16,26 @@ package src.main.java.basic.examples;
  * In case more than one abstract methods are present, the compiler flags an “Unexpected @FunctionalInterface annotation” message.
  * However, it is not mandatory to use this annotation.
  */
+@FunctionalInterface
+interface Printable{
 
-interface Square {
-    int calculate(int x);
+    void print ();
+}
+class Cat implements Printable {
+
+    @Override
+    public void print() {
+        System.out.println("Hello from cat");
+    }
 }
 
 public class FunctionalInterfaceExample {
     public static void main(String[] args) {
 
-//        Java 8
-        Square s = (int x) -> x * x;
-        System.out.println(s.calculate(10));
-
-        // Prior Java 8
-        Square s1 = new Square() {
-            @Override
-            public int calculate(int x) {
-                return x * x;
-            }
-        };
-        System.out.println(s1.calculate(5));
-    };
-
+        Printable cat = new Cat();
+        cat.print ();
+    }
+    static void print(Printable printable){
+        printable.print();
+    }
 }

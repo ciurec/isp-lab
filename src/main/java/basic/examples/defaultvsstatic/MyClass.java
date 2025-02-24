@@ -12,7 +12,7 @@ package src.main.java.basic.examples.defaultvsstatic;
 
 /**
  * O interfata care mosteneste o interfata cu metode default poate pastra comportamentul metodelor default mostenite
- * sau poate suprascrie acest comportament dupa cum se observa in interfata Y din exemplul aneterior.
+ * sau poate suprascrie acest comportament .
  */
 interface MyInterface2 extends MyInterface {
     default void defaultMethod(){
@@ -39,7 +39,7 @@ public class MyClass {
 
             @Override
             public void defaultMethod() {
-                MyInterface.super.defaultMethod();
+                System.out.println("Overridden default Method");
             }
         };
         myInterfaceInstance.defaultMethod();

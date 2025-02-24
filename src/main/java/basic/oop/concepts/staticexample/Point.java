@@ -21,7 +21,7 @@ public class Point {
         Point p2 = new Point();
 
         p1.x = 10;
-        p1.y =15;
+        p1.setY(15);
         p1.displayPoint();
 
         p2.x = 256;
